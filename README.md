@@ -23,10 +23,10 @@ Future Template for Protractor End User Tests
 
 ## TODO
 
-- [ ] Add Grunt
 - [x] ~~Implement PageObjects~~
 - [x] ~~Refactor App Structure~~
-- [ ] Implement Airbnb Style Guide
+- [x] ~~Implement Airbnb JShint~~
+- [ ] Add Grunt when the need arise
 - [ ] Set End User Test Standards - for app devs
 - [ ] Set End User Test Standards - for test engineers?
 - [ ] Create Yo Generator

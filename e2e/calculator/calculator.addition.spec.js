@@ -1,3 +1,5 @@
+'use strict';
+
 var CalculatorPage = require('./calculator.po.js'),
   page = new CalculatorPage();
 
