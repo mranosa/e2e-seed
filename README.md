@@ -25,7 +25,7 @@ Future Template for Protractor End User Tests
 
 - [ ] Add Grunt
 - [ ] Implement PageObjects
-- [ ] Refactor App Structure
+- [x] ~~Refactor App Structure~~
 - [ ] Implement Airbnb Style Guide
 - [ ] Set End User Test Standards - for app devs
 - [ ] Set End User Test Standards - for test engineers?
