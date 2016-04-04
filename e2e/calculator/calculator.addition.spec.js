@@ -5,19 +5,18 @@ var CalculatorPage = require('./calculator.po.js'),
 
 describe('Addition', function() {
 
-  var firstNumber = 4,
-    secondNumber = 5,
-    sumText = '9';
+  var inputs = [4, 5],
+    result = (inputs[0] + inputs[1]).toString();
 
   beforeEach(function() {
     page.get();
   });
 
   it('should add numbers', function() {
-    page.add(firstNumber, secondNumber);
+    page.add(inputs[0], inputs[1]);
 
-    page.getResult().then(function(text) {
-      expect(text).toEqual(sumText);
+    page.result.getText().then(function(text) {
+      expect(text).toEqual(result);
     });
   });
 

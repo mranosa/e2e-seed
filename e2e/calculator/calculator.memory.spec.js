@@ -5,12 +5,8 @@ var CalculatorPage = require('./calculator.po.js'),
 
 describe('Memory List', function() {
 
-  var firstNumber = 1,
-    secondNumber = 2,
-    thirdNumber = 3,
-    fourthNumber = 4,
-    firstSumText = '7',
-    secondSumText = '3',
+  var inputs = [1, 2, 3, 4],
+    results = [(inputs[0] + inputs[1]).toString(), (inputs[2] + inputs[3]).toString()],
     initialMemoryCount = 0,
     expectedMemoryCount = 2;
 
@@ -19,20 +15,20 @@ describe('Memory List', function() {
   });
 
   it('should start out with an empty list', function() {
-    page.getMemoryListValues().then(function(values) {
+    page.memoryListValues.then(function(values) {
       expect(values.length).toEqual(initialMemoryCount);
     });
   });
 
   it('should be filled with past results', function() {
-    page.add(firstNumber, secondNumber);
-    page.add(thirdNumber, fourthNumber);
+    page.add(inputs[0], inputs[1]);
+    page.add(inputs[2], inputs[3]);
 
-    page.getMemoryListValues().then(function(values) {
+    page.memoryListValues.then(function(values) {
       expect(values.length).toEqual(expectedMemoryCount);
 
-      expect(values[0].getText()).toEqual(firstSumText);
-      expect(values[1].getText()).toEqual(secondSumText);
+      expect(values[0].getText()).toEqual(results[1]);
+      expect(values[1].getText()).toEqual(results[0]);
     });
   });
 
