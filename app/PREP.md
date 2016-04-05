@@ -79,9 +79,19 @@ My Summary for Upcoming Interview
 - Awesome opportunity
 
 ## Next Plans
-- Create a style guide/testing standard
+- Create an e2e style guide/testing standard
 - Create an e2e testing tool that implements best practices
 - Find ways to make e2e tests faster
 - Find ways to make e2e tests easier to debug
 - Find ways to make e2e tests smarter (e.g should know what integration or unit tests are its child)
 
+## Questions - TODO find me
+- Is the BEN team, an independent team inside Corbis?
+- How does an independent small team thrive in a big media corporation? As a team what are the challenges and opportunities?
+- What is a typical day like for this role?
+- What are the current challenges does this role have?
+- What are the team's best and worst working relationships with other groups in the company? What are the pain points you have to deal with day-to-day?
+- What is the team's goal for the year?
+- What's the biggest change has the team through in the last year? Does everyone feel like the tough times are over and things are getting better, or are things still pretty bleak? What's the plan to handle to either scenario?
+- Who is the companies biggest competitor? Are you worried about them?
+- What was the team's biggest challenge in the past year? How did the team solve it?
