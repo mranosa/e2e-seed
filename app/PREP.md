@@ -29,13 +29,29 @@ My Summary for Upcoming Interview
 - Definition of Done
 - Improves Readability and Maintainabilty
 - Faster Release Cycles
+- Release Confidence
 - Improves Development Environment
 - Reduce Technical Debt
 - Save Money and Fast ROI
 
+## Why A Testing Role?
+
+- Sharpen Coding Chops
+- Less Competition
+- Big Impact
+- Writing and running test is easier and faster
+- Lots of Untapped Brave New World Challenges
+
+
 ## E2E Testing
 
-   ### This is a third-tier heading
+##### Pros
 
-   - Definition of Done
-   - Improves Readability and Maintainabilty
+- High Coverage
+- High Confidence (when happy paths are OK)
+
+
+##### Cons
+
+- Slow
+- Hard to Debug (when it fails, because error can be anywhere in the code)
