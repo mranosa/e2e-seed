@@ -43,15 +43,30 @@ My Summary for Upcoming Interview
 - Lots of Untapped Brave New World Challenges
 
 
-## E2E Testing
+## E2E Testing Experience at InnoVint
 
-##### Pros
+#### What I Did
+- Designed and automated end user tests for the core web application
+
+#### Challenges
+- Protractor updates break the test
+- Not much literature
+- Running Test Takes a Long Time
+- No Code Standard and Style Guide
+- Test Smells (Usually happen when I dont understand or forgot the requirements haha)
+
+#### Values Added
+- Release Confidence
+- Faster Release Cycles
+
+#### Insights
+
+###### Pros
 
 - High Coverage
 - High Confidence (when happy paths are OK)
 
-
-##### Cons
+###### Cons
 
 - Slow
 - Hard to Debug (when it fails, because error can be anywhere in the code)
