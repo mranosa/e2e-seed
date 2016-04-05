@@ -17,7 +17,8 @@ My Summary for Upcoming Interview
 
 - Constantly challenge and improve myself
 - Love solving hard problems creatively
-- Love learning new things
+- Love learning and exploring new things
+- Easily get along with anyone :D
 
 ## Weaknesses
 
@@ -26,6 +27,7 @@ My Summary for Upcoming Interview
 
 ## Why Test?
 
+- Bugs are Costly! Worst Case it Sinks the Ship!
 - Definition of Done
 - Improves Readability and Maintainabilty
 - Faster Release Cycles
@@ -41,7 +43,6 @@ My Summary for Upcoming Interview
 - Big Impact
 - Writing and running test is easier and faster
 - Lots of Untapped Brave New World Challenges
-
 
 ## E2E Testing Experience at InnoVint
 
@@ -70,3 +71,17 @@ My Summary for Upcoming Interview
 
 - Slow
 - Hard to Debug (when it fails, because error can be anywhere in the code)
+
+## Why Ben?
+- Awesome product, solid roi and reach
+- Awesome team, remote and long term engagement
+- Love the Corbis mantra - Inspire. Create. Innovate.
+- Awesome opportunity
+
+## Next Plans
+- Create a style guide/testing standard
+- Create an e2e testing tool that implements best practices
+- Find ways to make e2e tests faster
+- Find ways to make e2e tests easier to debug
+- Find ways to make e2e tests smarter (e.g should know what integration or unit tests are its child)
+
