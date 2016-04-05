@@ -85,7 +85,7 @@ My Summary for Upcoming Interview
 - Find ways to make e2e tests easier to debug
 - Find ways to make e2e tests smarter (e.g should know what integration or unit tests are its child)
 
-## Questions - TODO find me
+## Questions
 - Is the BEN team, an independent team inside Corbis?
 - How does an independent small team thrive in a big media corporation? As a team what are the challenges and opportunities?
 - What is a typical day like for this role?
